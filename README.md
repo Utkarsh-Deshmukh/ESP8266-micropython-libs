@@ -26,3 +26,8 @@ Hence, any application that we develop will be called from this `main.py` file.
 Step 2) once the files are ready, we copy them over to the ESP board using the following command:  
 `./ampy --port COM3 put <path-of-file-to-be-copied-to-the-ESP-board>`  
 Step 3) Make sure that the intended application is called in main.py and that all the needed files are copied over to the board in order to run the application.  
+
+
+# Acknowledgements:
+ - Special Thanks to https://github.com/zhcong/ULN2003-for-ESP32 for the Stepper motor driving codes
+ 
